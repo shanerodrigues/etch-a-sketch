@@ -29,8 +29,8 @@ body{
     grid-template-rows: repeat(16, 2fr);
     border: 5px solid white;
     border-radius: 5px;
-    height: 590px;
-    width: 590px;
+    height: 500px;
+    width: 500px;
     background-color: white;
 }
 
