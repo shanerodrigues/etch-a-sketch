@@ -1,0 +1,73 @@
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+
+.controls{
+    display: flex; 
+    flex-direction: column; 
+    margin-right: 12px; 
+    justify-content: center;
+}
+
+/* .grid{
+    margin-top: 50px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+    background-color: white;
+    box-shadow: 10px 10px;
+}
+
+.cell{
+    background-color: white;
+    border: 1px solid black;
+} */
+
+#container{
+    align-self: center;
+}
+
+ #clear{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100px;
+    padding: 12px;
+    border-radius: 25px;
+    margin-top: 20px;
+} 
+.gridCell {
+    border: 1px solid gray;
+    border-radius: 4px;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+    margin-right: 1.5px;
+    margin-top: -5px;
+  }
+
+.hovered{
+    border: 1px solid gray;
+    border-radius: 4px;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+    margin-right: 1.5px;
+    margin-top: -5px;
+    background: black;
+}

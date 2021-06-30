@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    font-family: 'Indie Flower', cursive;
+}
+
+h2{
+    color: white;
+    font-size: 60px;
+    text-shadow: 
+ 4px 4px 0px rgb(11, 174, 228), 6px 6px 0px lightblue;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+
+}
+
+#grid{
+    margin-top: 50px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 590px;
+    width: 590px;
+    background-color: white;
+}
+
+.fill{
+    background: black;
+}
+
+button{
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#clear{
+    background: red;
+    border: 2px solid salmon;
+    box-shadow: 2px 2px salmon;
+}
+
+#newGrid{
+    background: rgb(11, 174, 228);
+    border: 2px solid lightblue;
+    border-radius: 12px;
+    padding: 5px 12px;
+    box-shadow: 2px 2px 2px 2px lightskyblue;
+}
+
+#newGrid:hover{
+    background: rgb(110, 194, 247);
+}
+
+#clear:hover{
+    background: rgb(255, 108, 108);
+}
+
+#controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
